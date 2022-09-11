@@ -1,0 +1,22 @@
+:root {
+  --color-company: #8235ee;
+  --color-hover: #6b1fd4;
+}
+
+.btn-heart{
+  font-size: 1.2rem;
+  color: rgb(195, 195, 195);
+}
+
+.btn-heart:hover{
+  color: rgb(216, 22, 22);
+}
+
+.btn-reaction{
+  font-size: 1.2rem;
+  color: rgb(195, 195, 195);
+}
+
+.btn-reaction:hover{
+  color: var(--color-company);
+}

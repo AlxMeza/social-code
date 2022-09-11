@@ -1,0 +1,11 @@
+.avatar {
+  border-radius: 20rem;
+  height: 3.7rem;
+  width: 3.7rem;
+}
+
+.avatarmin {
+  border-radius: 20rem;
+  height: 3rem;
+  width: 3rem;
+}

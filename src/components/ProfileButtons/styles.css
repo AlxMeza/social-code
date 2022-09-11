@@ -1,0 +1,31 @@
+:root {
+  --color-company: #8235ee;
+  --color-hover: #6b1fd4;
+}
+
+.link{
+  font-size: 1.3rem;
+  padding: 0.5em 1rem;
+  border-radius: 0.3rem;
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover{
+  color: white;
+  background-color: var(--color-company)
+}
+
+.link-active{
+  font-size: 1.3rem;
+  color: white;
+  padding: 0.5em 1rem;
+  border-radius: 0.3rem;
+  text-decoration: none;
+  background-color: var(--color-company);
+}
+
+.link-active:hover{
+  color: white;
+  background-color: var(--color-hover);
+}

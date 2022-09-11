@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import 'bootstrap-icons/font/bootstrap-icons.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+// import $ from 'jquery';
+// import Popper from 'popper.js';
+import 'bootstrap/dist/js/bootstrap.bundle.min'
+import { Route } from 'wouter'
+import Home from './pages/Home/Home'
+import Profile from './pages/Profile/Profile'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App-bg">
+      <Route component={Home} path='/' />
+      <Route component={Profile} path='/profile' />
     </div>
   );
 }

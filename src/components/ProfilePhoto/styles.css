@@ -1,0 +1,19 @@
+.img-container {
+  margin-top: 12rem;
+  margin-left: 2rem;
+  display: flex;
+  position: absolute;
+  width: 11.8rem;
+  height: 11.8rem;
+  background-color: white;
+  border-radius: 0.7rem;
+  align-items: center;
+}
+
+.img-profile {
+  width: 10.6rem;
+  height: 10.6rem;
+  margin: auto auto;
+  position: relative;
+  z-index: 50;
+}

@@ -1,0 +1,13 @@
+.btn-comment{
+  font-size: 1rem;
+  color: white;
+  padding: 0.5em 1rem;
+  border-radius: 0.3rem;
+  text-decoration: none;
+  background-color: var(--color-company);
+}
+
+.btn-comment:hover{
+  color: white;
+  background-color: var(--color-hover);
+}

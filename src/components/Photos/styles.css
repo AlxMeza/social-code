@@ -1,0 +1,29 @@
+.img-boxphotos {
+  width: 100%;
+  height: 2rem;
+  display: inline-block;
+  padding: 1rem 0 0 0;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+
+.img-photos {
+  object-fit: cover;
+  width:100%;
+  height:100%;
+}
+
+.btn-buy{
+  font-size: 1rem;
+  color: white;
+  padding: 0.4rem 2rem;
+  border-radius: 0.3rem;
+  text-decoration: none;
+  background-color: rgb(215, 14, 14);
+}
+
+.btn-buy:hover{
+  color: white;
+  background-color: rgb(243, 14, 14);
+}
